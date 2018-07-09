@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	margin: 0;
+	padding: 5px;
+	background-color: #333;
+	color: #eee;
+	height: 80px;
+	border-bottom: 8px solid #ccc;
+}
+
+#formlogin {
+	width: 400px;
+	margin: 0 auto;
+}
+
+	#formlogin label {
+		float: left;
+		width: 120px;
+	}

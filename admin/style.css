@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	margin: 0;
+	padding: 5px;
+	background-color: #666666;
+	color: #eee;
+	height: 80px;
+	border-bottom: 10px solid #ccc;
+}
+
+#content {
+	margin: 0;
+	padding: 0;
+}
+	#content-right {
+		float: left;
+		width: 1300px;
+		padding-left: 20px;
+	}
+
+		#content-right #menu-user {
+			margin: 0;
+			padding: 5px;
+			font-size: 12px;
+			text-align: right;
+		}
+
+		#content a {
+			font-size: 12px;
+
+		}
+
+		#content .formstyle {
+			margin: 0;
+			padding: 0;
+			font-size: 12px;
+		}
+
+		.formstyle label {
+			float: left;
+			width: 200px;
+		}
+
+#foot {
+	margin: 12px 0;
+	padding: 0;
+}
+	#foot #foot-left {
+		margin: 0;
+		float: left;
+	}
+
+	#foot #foot-right {
+		margin: 0;
+		float: left;
+	}
+
+
+#footer {
+	margin: 12px 0 0;
+	padding: 5px;
+	text-align: center;
+	height: 40px;
+	background-color: #333;
+	border-top: 8px solid #ccc;
+	color: #eee;
+	font-size: 11px;
+}
+
+ul.menu  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+}
+
+ul.menu li a {
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f3f3f3;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
